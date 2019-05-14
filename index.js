@@ -1,8 +1,8 @@
 function produceDrivingRange(blockRange) {
   return function(start, end) {
-    let startBlock = parseInt(start);
-    let endBlock = parseInt(end);
-    let distance = Math.abs(endBlock - startBlock);
+    const startBlock = parseInt(start);
+    const endBlock = parseInt(end);
+    const distance = Math.abs(endBlock - startBlock);
     if (distance > blockRange) {
       return `${distance - blockRange} blocks out of range`;
     } else {
