@@ -15,7 +15,7 @@ const produceDrivingRange = (blockRange) => {
   }
 
  const produceTipCalculator = (percentage) => {
-    return function ( rideFare ) {
+    return function (rideFare) {
       return rideFare * percentage;
     }
   }
